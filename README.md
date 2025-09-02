@@ -1,55 +1,44 @@
-# 🚗 OIBSIP ML Internship – Task 3  
-## Car Price Prediction using Machine Learning  
+# 🚗 OIBSIP ML Internship – Task 3: Car Price Prediction
 
-### 🔹 Objective  
-Build a **Machine Learning model** to predict the **resale price of used cars** based on multiple features like year, present price, kilometers driven, fuel type, seller type, transmission, and number of owners.  
-
----
-
-### 🔹 Dataset  
-The dataset contains the following columns:  
-- **Car_Name** – Model of the car  
-- **Year** – Manufacturing year  
-- **Present_Price** – Current ex-showroom price (in lakhs)  
-- **Kms_Driven** – Distance driven (in kilometers)  
-- **Fuel_Type** – Petrol / Diesel / CNG  
-- **Seller_Type** – Dealer / Individual  
-- **Transmission** – Manual / Automatic  
-- **Owner** – Number of previous owners  
-- **Selling_Price** – Target variable (resale price of the car)  
+This project is part of the **Oasis Infobyte Machine Learning Internship (Task 3)**.  
+The goal of this task is to build a **Car Price Prediction Model** that estimates the resale price of cars using Machine Learning techniques.  
 
 ---
 
-### 🔹 Steps Performed  
-1. Imported dataset and performed exploratory data analysis (EDA)  
-2. Encoded categorical variables into numerical form  
-3. Visualized relationships using **correlation heatmap**  
-4. Split dataset into **training (80%)** and **testing (20%)** sets  
-5. Trained two ML models:  
-   - **Linear Regression**  
-   - **Random Forest Regressor**  
-6. Evaluated models using **R² Score**  
-7. Identified **feature importance** using Random Forest  
-8. Predicted car prices on test samples  
+## 📌 Project Overview
+The price of a car depends on several factors such as:
+- Brand and goodwill  
+- Year of manufacture  
+- Present price  
+- Kilometers driven  
+- Fuel type (Petrol/Diesel/CNG)  
+- Transmission type (Manual/Automatic)  
+- Owner history  
+
+This project uses **Linear Regression** and **Random Forest Regressor** to predict the price of used cars.
 
 ---
 
-### 🔹 Tools & Libraries  
-- **Python**  
-- **Pandas, NumPy** – Data Handling  
-- **Matplotlib, Seaborn** – Visualization  
-- **Scikit-Learn** – Model Training & Evaluation  
-- **Jupyter Notebook / Python Script** – Implementation  
+## 📂 Project Structure
 
 ---
 
-### 🔹 Results / Outcome  
-✔️ **Random Forest outperformed Linear Regression** in prediction accuracy  
-✔️ Found that **Year, Present Price, and Kms Driven** are the most important features  
-✔️ Visualized feature importance and correlations  
-✔️ Successfully predicted resale prices for sample test cases  
+## ⚙️ Technologies Used
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib & Seaborn  
+- Scikit-learn  
 
 ---
 
-### 🔹 Author  
-👩‍💻 **Varsha** – OIBSIP ML Intern  
+## 🚀 Steps to Run the Project
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/varsha490/OIBSIP_ML_task3.git
+jupyter notebook Car_Price_Prediction.ipynb
+
+---
+
+
+ 
